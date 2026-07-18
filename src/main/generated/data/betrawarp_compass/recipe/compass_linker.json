@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "E": "minecraft:ender_eye",
+    "N": "minecraft:netherite_scrap"
+  },
+  "pattern": [
+    "ANA",
+    "NEN",
+    "ANA"
+  ],
+  "result": {
+    "id": "betrawarp_compass:compass_linker"
+  }
+}

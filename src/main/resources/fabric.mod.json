@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "betrawarp_compass",
+  "version": "${version}",
+  "name": "BetraWarp_Compass",
+  "description": "BetraWarp: Compass",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/betrawarp_compass/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "io.github.mrbest2525.betrawarp_compass.client.BetraWarp_CompassDataGenerator"
+    ],
+    "client": [
+      "io.github.mrbest2525.betrawarp_compass.client.BetraWarp_CompassClient"
+    ],
+    "main": [
+      "io.github.mrbest2525.betrawarp_compass.BetraWarp_Compass"
+    ]
+  },
+  "mixins": [
+    "betrawarp_compass.mixins.json",
+    {
+      "config": "betrawarp_compass.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "polymer-core": ">=0.17.2"
+  }
+}

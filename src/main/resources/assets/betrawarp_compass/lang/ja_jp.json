@@ -1,0 +1,20 @@
+{
+  "menu.betrawarp_compass.compass_linker.title": "Warp Item Setting!",
+  "menu.betrawarp_compass.compass_linker.info.name": "情報",
+  "menu.betrawarp_compass.compass_linker.info.lore.info": "このアイテムはワープ機能を提供します。",
+  "menu.betrawarp_compass.compass_linker.info.lore.target_pos": "ターゲット位置: ディメンション: %1$s [%2$s, %3$s, %4$s]",
+  "menu.betrawarp_compass.compass_linker.info.lore.energy": "エネルギー: %1$s",
+  "warp.betrawarp_compass.dimension_not_found": "移動先のディメンションが見つかりませんでした。",
+  "warp.betrawarp_compass.not_enough_energy": "エネルギーが足りません。",
+  "warp.betrawarp_compass.not_set_target": "移動先が設定されていません。",
+  "warp.betrawarp_compass.safe_position_not_found": "安全な位置が見つかりませんでした。",
+  "warp.betrawarp_compass.warp_target_not_found": "ワープターゲットが見つかりません。",
+  "item.betrawarp_compass.compass_linker": "コンパス・リンカー",
+  "dimension.minecraft.overworld": "オーバーワールド",
+  "dimension.minecraft.the_nether": "ネザー",
+  "dimension.minecraft.the_end": "エンド",
+  "tooltip.betrawarp_compass.warp_energy": "エネルギー: %1$s",
+  "tooltip.betrawarp_compass.target_position": "ターゲット位置: ディメンション: %1$s [%2$s, %3$s, %4$s]",
+  "tooltip.betrawarp_compass.target_position_not_found": "ターゲット位置が見つかりません。",
+  "creativeTab.betrawarp_compass": "BetraWarp: Compass"
+}

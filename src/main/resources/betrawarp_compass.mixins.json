@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.mrbest2525.betrawarp_compass.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ItemStackTooltipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

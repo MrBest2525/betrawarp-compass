@@ -1,0 +1,20 @@
+{
+  "menu.betrawarp_compass.compass_linker.title": "Warp Item Setting!",
+  "menu.betrawarp_compass.compass_linker.info.name": "Information",
+  "menu.betrawarp_compass.compass_linker.info.lore.info": "This item provides warp functionality.",
+  "menu.betrawarp_compass.compass_linker.info.lore.target_pos": "Target Position: Dimension: %1$s [%2$s, %3$s, %4$s]",
+  "menu.betrawarp_compass.compass_linker.info.lore.energy": "Energy: %1$s",
+  "warp.betrawarp_compass.dimension_not_found": "Dimension not found.",
+  "warp.betrawarp_compass.not_enough_energy": "Not enough energy.",
+  "warp.betrawarp_compass.not_set_target": "No destination has been set.",
+  "warp.betrawarp_compass.safe_position_not_found": "No safe position found.",
+  "warp.betrawarp_compass.warp_target_not_found": "Warp target not found.",
+  "item.betrawarp_compass.compass_linker": "Compass-Linker",
+  "dimension.minecraft.overworld": "Overworld",
+  "dimension.minecraft.the_nether": "Nether",
+  "dimension.minecraft.the_end": "The End",
+  "tooltip.betrawarp_compass.warp_energy": "energy: %1$s",
+  "tooltip.betrawarp_compass.target_position": "Target Position: Dimension: %1$s [%2$s, %3$s, %4$s]",
+  "tooltip.betrawarp_compass.target_position_not_found": "Target position not found.",
+  "creativeTab.betrawarp_compass": "BetraWarp: Compass"
+}

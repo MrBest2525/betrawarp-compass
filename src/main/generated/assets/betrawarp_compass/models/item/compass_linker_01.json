@@ -1,0 +1,6 @@
+{
+  "parent": "betrawarp_compass:item/compass_linker",
+  "textures": {
+    "1": "minecraft:item/compass_01"
+  }
+}
