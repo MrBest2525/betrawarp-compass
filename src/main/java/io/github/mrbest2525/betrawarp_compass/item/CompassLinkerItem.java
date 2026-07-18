@@ -55,6 +55,7 @@ public class CompassLinkerItem extends Item {
     
     public CompassLinkerItem(Properties properties) {
         properties.component(DataComponents.LODESTONE_TRACKER, new LodestoneTracker(Optional.empty(), false));
+        properties.component(DataComponents.MAX_STACK_SIZE, 1);
         super(properties);
     }
     
@@ -64,7 +65,6 @@ public class CompassLinkerItem extends Item {
         if (level.isClientSide()) return;
         if (DataStorageUtil.getData(itemStack, ModDataStorages.IS_COMPASS_LINKER) == null) {
             DataStorageUtil.setData(itemStack, ModDataStorages.IS_COMPASS_LINKER, true);
-//            itemStack.set(DataComponents.LODESTONE_TRACKER, new LodestoneTracker(Optional.empty(), false));
         }
     }
     
