@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "betrawarp_compass:compass_linker"
+        "recipes": "betrawarp_compass:compass_linker"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
