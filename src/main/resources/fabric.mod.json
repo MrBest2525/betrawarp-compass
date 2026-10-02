@@ -33,6 +33,6 @@
     "minecraft": "${minecraft_version}"
   },
   "suggests": {
-    "polymer-core": ">=0.17.2"
+    "polymer-core": ">=${polymer_core_suggests_version}"
   }
 }

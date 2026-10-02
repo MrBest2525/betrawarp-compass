@@ -54,6 +54,7 @@ tasks.processResources {
     val version = version
     val loader_version = providers.gradleProperty("loader_version").get()
     val minecraft_version = providers.gradleProperty("minecraft_version").get()
+    val polymer_core_suggests_version = providers.gradleProperty("polymer_core_suggests_version").get()
 
     filteringCharset = "UTF-8"
 
@@ -65,7 +66,8 @@ tasks.processResources {
         expand(
             "version" to version,
             "loader_version" to loader_version,
-            "minecraft_version" to minecraft_version
+            "minecraft_version" to minecraft_version,
+            "polymer_core_suggests_version" to polymer_core_suggests_version
         )
     }
 }

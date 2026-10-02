@@ -177,7 +177,7 @@ public class CompassLinkerMenu extends AbstractContainerMenu {
             } else if (this.slot == 20) {
                 if (this.warpItem != null && !this.warpItem.isEmpty()) {
                     ItemContainerContents compassContainer = this.warpItem.getOrDefault(DataComponents.CONTAINER, ItemContainerContents.EMPTY);
-                    int currentSize = (int) compassContainer.allItemsCopyStream().count();
+                    int currentSize = (int) compassContainer.nonEmptyItemCopyStream().count();
                     int requiredSize = Math.max(1, currentSize);
                     NonNullList<ItemStack> tempItems = NonNullList.withSize(requiredSize, ItemStack.EMPTY);
                     compassContainer.copyInto(tempItems);
