@@ -6,6 +6,11 @@ plugins {
 version = providers.gradleProperty("mod_version").get()
 group = providers.gradleProperty("maven_group").get()
 
+base {
+    archivesName = providers.gradleProperty("archives_base_name")
+        .zip(providers.gradleProperty("minecraft_version")) { name, mc -> "${name}-mc${mc}" }
+}
+
 repositories {
     // Add repositories to retrieve artifacts from in here.
     // You should only use this when depending on other mods because
